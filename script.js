@@ -6,6 +6,16 @@ menuToggle.addEventListener("click", () => {
   showcase.classList.toggle("active");
 });
 
+// document.addEventListener("click", (e) => {
+//   if (menuToggle.classList.contains("active")) {
+//     menuToggle.classList.remove("active");
+//     showcase.classList.remove("active");
+//   } else if (!menuToggle.classList.contains("active")) {
+//     menuToggle.classList.toggle("active");
+//     // showcase.classList.toggle("active");
+//   }
+// });
+
 // showcase.addEventListener("click", () => {
 //   if (menuToggle.classList.contains("active")) {
 //     menuToggle.classList.toggle("active");
