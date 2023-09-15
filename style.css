@@ -17,16 +17,11 @@
   padding: 100px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   background-image: linear-gradient(to bottom right, black, silver);
   color: white;
   z-index: 2;
   transition: 0.3s;
-}
-
-.showcase.site {
-  background-image: none;
-  background: #111;
 }
 
 .showcase.active {
