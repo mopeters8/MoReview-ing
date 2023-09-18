@@ -1,9 +1,11 @@
 const menuToggle = document.querySelector(".toggle");
 const showcase = document.querySelector(".showcase");
+const beginningText = document.querySelector(".beginningsText");
 
 menuToggle.addEventListener("click", () => {
   menuToggle.classList.toggle("active");
   showcase.classList.toggle("active");
+  beginningText.classList.toggle("active");
 });
 
 // document.addEventListener("click", (e) => {

@@ -24,6 +24,10 @@
   transition: 0.3s;
 }
 
+.showcase .text {
+  padding: 200px 20px;
+}
+
 .showcase.active {
   right: 300px;
 }
